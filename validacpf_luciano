@@ -21,8 +21,6 @@ def valida_cpf(num_cpf):
 	if resto2 > 2:
 		DV2 = 11 - resto2
 	else:
-
-
 		DV2 = 0
 
 	if str(DV1) == num_cpf[9] and str(DV2) == num_cpf[10]:
